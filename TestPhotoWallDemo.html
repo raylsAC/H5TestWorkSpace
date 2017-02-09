@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>简易照片墙</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul{
+			width: 100%;
+			height: 400px;
+			margin: 150px auto;
+			text-align: center;
+			background-color: cornflowerblue;
+		}
+		ul li{
+			list-style: none;
+			display: inline-block;/*用浮动不好处理居中*/
+			margin-top: 100px;
+			transition: all 800ms;
+			position: relative;
+		}
+		ul li img{
+			width: 150px;
+			height: 200px;
+			border: 5px solid #fff;
+			box-shadow: 0 0 10px;
+			box-sizing: border-box;
+		}
+
+		ul li:nth-child(1){
+			transform: rotate(30deg);
+		}
+		ul li:nth-child(2){
+			transform: rotate(-40deg);
+		}
+		ul li:nth-child(3){
+			transform: rotate(10deg);
+		}
+		ul li:nth-child(4){
+			transform: rotate(45deg);
+		}
+
+		ul li:hover{
+			transform: scale(1.5);
+			z-index: 5;/*注意该属性要脱标使用*/
+		}
+	</style>
+</head>
+<body>
+<ul>
+	<li><img src="images/photowall/1.jpg" alt=""></li>
+	<li><img src="images/photowall/2.jpg" alt=""></li>
+	<li><img src="images/photowall/3.jpg" alt=""></li>
+	<li><img src="images/photowall/4.jpg" alt=""></li>
+</ul>
+</body>
+</html>

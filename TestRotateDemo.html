@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>旋转demo</title>
+	<style>
+		div{
+			width: 310px;
+			height: 438px;
+			background-color: antiquewhite;
+			margin: 100px auto;
+			border-radius: 18px;
+			perspective: 500px;
+		}
+		div img{
+			transform-origin: center bottom;
+			transition: transform 400ms;
+
+		}
+		div:hover img{
+			transform: rotateX(80deg);
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<img src="images/rotate/pk.png" >
+	</div>
+</body>
+</html>
