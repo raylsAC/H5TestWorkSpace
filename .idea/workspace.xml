@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a7b6b5c-92e1-44df-ad38-398bfe57ca54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/accordian/ad1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/accordian/ad2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/accordian/ad3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/accordian/ad4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/accordian/ad5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/accordian/ad6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAccordianDemo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestBaiduIndexDemo.html" afterPath="$PROJECT_DIR$/TestBaiduIndexDemo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/bdlogo.gif" afterPath="$PROJECT_DIR$/images/baiduindex/bdlogo.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/ic.jpg" afterPath="$PROJECT_DIR$/images/baiduindex/ic.jpg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +22,28 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TestAccordianDemo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestAccordianDemo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBaiduIndexDemo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestBaiduIndexDemo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1172">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,6 +123,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="H5TestWorkSpace">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -132,24 +163,27 @@
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baiduindex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestWorkSpace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="H5TestWorkSpace">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="H5TestWorkSpace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,12 +195,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\RAYLS\MyData\Code\rayls_HTML\H5TestWorkSpace\images\accordian" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\RAYLS\MyData\Code\rayls_HTML\H5TestWorkSpace\images" />
       <recent name="E:\RAYLS\MyData\Code\rayls_HTML\workspace\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\RAYLS\MyData\Code\rayls_HTML\H5TestWorkSpace\images\baiduindex" />
+      <recent name="E:\RAYLS\MyData\Code\rayls_HTML\H5TestWorkSpace\images\accordian" />
     </key>
   </component>
   <component name="RunManager">
@@ -246,12 +281,21 @@
       <workItem from="1484097882186" duration="19799000" />
       <workItem from="1486609782992" duration="10199000" />
       <workItem from="1486628015555" duration="369000" />
-      <workItem from="1486628386027" duration="68000" />
+      <workItem from="1486628386027" duration="160000" />
+      <workItem from="1486628592249" duration="245000" />
     </task>
+    <task id="LOCAL-00001" summary="css实现手风琴效果">
+      <created>1486628480963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1486628480963</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30435000" />
+    <option name="totallyTimeSpent" value="30772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -281,11 +325,23 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="css实现手风琴效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="css实现手风琴效果" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TestAccordianDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestBaiduIndexDemo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -301,13 +357,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestBaiduIndexDemo.html">
+    <entry file="file://$PROJECT_DIR$/images/baiduindex/ic.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAccordianDemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="322">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestAccordianDemo.html" />
+    <entry file="file://$PROJECT_DIR$/TestBaiduIndexDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1172">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
