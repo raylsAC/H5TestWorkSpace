@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>简单的手风琴效果</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.contain{
+			width: 920px;
+			height: 300px;
+			margin: 100px auto;
+			box-shadow: 0 0 10px #000000;
+			overflow: hidden;
+		}
+		.contain li{
+			list-style: none;
+			width: 153px;
+			height: 300px;
+			float: left;
+			border-left: 2px solid white;
+			border-right: 2px solid white;
+			box-sizing: border-box;
+			transition: width 400ms;
+		}
+		.contain:hover li{
+			width: 50px;
+		}
+		.contain li:hover{
+			width: 670px;
+		}
+	</style>
+</head>
+<body>
+	<div >
+		<ul class="contain">
+			<li><img src="images/accordian/ad1.jpg"></li>
+			<li><img src="images/accordian/ad2.jpg"></li>
+			<li><img src="images/accordian/ad3.jpg"></li>
+			<li><img src="images/accordian/ad4.jpg"></li>
+			<li><img src="images/accordian/ad5.jpg"></li>
+			<li><img src="images/accordian/ad6.jpg"></li>
+
+		</ul>
+	</div>
+
+</body>
+</html>
