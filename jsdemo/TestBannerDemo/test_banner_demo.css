@@ -1,0 +1,66 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#auto_banner,#indicate_banner{
+    width: 335px;
+    height: 150px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#auto_banner ul {
+    list-style: none;
+    position: absolute;
+    width: 500%;
+}
+
+#indicate_banner ul {
+    list-style: none;
+    position: absolute;
+    width: 400%;
+}
+
+#indicate_banner ul li, #auto_banner ul li{
+    float: left;
+    width: 335px;
+    height: 150px;
+
+}
+#indicate_banner ul li img, #auto_banner ul li img{
+    width: 335px;
+    height: 150px;
+
+}
+
+#indicate_banner #indicate{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+#indicate_banner span{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    line-height: 18px;
+    margin-left: 5px;
+    color: white;
+    border-radius: 500px;
+    opacity: 0.7;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.span_normal{
+    background-color: black;
+}
+
+.span_hover{
+    background-color: dimgray;
+}

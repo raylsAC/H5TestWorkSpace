@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #box{
+            margin: 100px auto;
+            border: 1px solid gray;
+            width: 500px;
+            height: auto;
+            padding: 20px;
+
+        }
+
+        textarea{
+            resize: none;
+            width: 300px;
+            height: 150px;
+            outline-style: none;
+            margin-left: 30px;
+        }
+
+        button{
+            margin-left: 40px;
+            padding: 5px;
+        }
+
+        ul{
+            list-style: none;
+            margin-top: 20px;
+
+        }
+        li{
+            border-bottom: 1px dashed gray;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 10px;
+        }
+
+        li a{
+            float: right;
+        }
+
+    </style>
+
+    <script>
+
+        window.onload = function () {
+            var commentList = document.createElement("ul");
+            var box = document.getElementById("box");
+            box.appendChild(commentList);
+
+            var publish = document.getElementsByTagName("button")[0];
+            var textArea = document.getElementsByTagName("textarea")[0];
+
+            publish.onclick = function () {
+
+                if(!textArea.value){
+                    alert("请输入有效内容");
+                    return;
+                }
+
+                var commentItem = document.createElement("li");
+                var deleteBtn = document.createElement("a");
+                var date = new Date();
+                commentItem.innerHTML = textArea.value + date.getFullYear()+ "-" + date.getMonth() + "-" +date.getDate();
+                deleteBtn.innerHTML = "删除";
+                deleteBtn.href = "javascript:;";
+                commentItem.appendChild(deleteBtn)
+
+                if (commentList.children.length == 0){
+                    commentList.appendChild(commentItem);
+                }else {
+                    commentList.insertBefore(commentItem, commentList.children[0]);
+                }
+
+                textArea.value = "";
+
+                deleteBtn.onclick = function () {
+                    commentList.removeChild(deleteBtn.parentNode);
+                }
+
+
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="box">
+    微博发布<textarea name="" id="" cols="30" rows="10"></textarea><button>发布</button>
+</div>
+</body>
+</html>
