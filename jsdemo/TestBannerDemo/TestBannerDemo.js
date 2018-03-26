@@ -31,14 +31,6 @@ window.onload = function () {
     var indicators = bannerIndicate.children[1];
     var timerIndicate = null;
 
-    // setInterval(function () {
-    //     endX += 335;
-    //     if (endX >= 1340){
-    //         endX = 0;
-    //     }
-    //     bannerIndicate.children[0].style.left = -endX+"px";
-    //
-    // },1000);
 
     for (var i = 0; i < indicators.children.length; i++){
         indicators.children[i].index = i;

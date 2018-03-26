@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#father{
+    width: 350px;
+    position: relative;
+    left: 50%;
+    top: 100px;
+    margin-left: -175px;
+}
+
+#bar{
+    width: 350px;
+    height: 8px;
+    background: darkgray;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+#btn{
+    width: 8px;
+    height: 20px;
+    background: dodgerblue;
+    left: 0px;
+    top: -6px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#process{
+    /*width: 350px;*/
+    height: 8px;
+    background: dodgerblue;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
